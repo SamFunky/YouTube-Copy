@@ -33,16 +33,13 @@
   height: 36px;
   padding-left: 10px;
   font-size: 16px;
-  border-width: 1px;
-  border-style: solid;
-  border-color: rgb(203, 203, 203);
+  border: 1px solid rgb(203, 203, 203);
   border-radius: 2px;
   box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
   width: 0;
 }
 
 .search-bar::placeholder {
-  font-family: Roboto, Arial;
   font-size: 16px;
 }
 
@@ -62,7 +59,6 @@
 .upload-icon-container .tooltip,
 .youtube-apps-icon-container .tooltip,
 .notifications-icon-container .tooltip {
-  font-family: Roboto, arial;
   position: absolute;
   background-color: gray;
   color: white;
@@ -141,7 +137,6 @@
 }
 
 .notifications-count {
-  font-family: Roboto, Arial, Helvetica, sans-serif;
   font-size: 11px;
   padding-left: 5px;
   padding-right: 5px;
